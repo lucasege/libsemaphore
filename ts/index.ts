@@ -238,9 +238,7 @@ const genWitness = (
         treeDepth,
         externalNullifier,
         (signal: string) => {
-            return ethers.utils.hexlify(
-                ethers.utils.toUtf8Bytes(signal),
-            )
+            return signal;
         },
     )
 }
