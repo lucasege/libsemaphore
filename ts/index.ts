@@ -443,7 +443,7 @@ const genBroadcastSignalParams = (
     }
 }
 
-export {
+export type {
     Identity,
     EddsaKeyPair,
     EddsaPrivateKey,
@@ -456,6 +456,9 @@ export {
     SnarkProof,
     SnarkBigInt,
     WitnessData,
+}
+
+export {
     parseVerifyingKeyJson,
     setupTree,
     genPubKey,
